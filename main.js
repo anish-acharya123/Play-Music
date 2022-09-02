@@ -13,6 +13,7 @@ const array = [
   { id: 2, song: "/music/rato-chandra.mp3", img: "./img/nepal.png", name: 'RATO CHANDRA SURYA',time:84 },
   { id: 3, song: "/music/mero-priya.mp3", img: "./img/mero-priya.png", name: 'MERO PRIYA',time:84 },
   { id: 4, song: "/music/maya.mp3", img: "./img/maya.png", name: 'MAYA', time:84 },
+  { id: 5, song: "/music/small.mp3", img: "./img/nepal.png", name: 'SMALL', time:84 },
 ];
 
 let counter = 1
