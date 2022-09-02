@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f0b2bd01cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Play Music || Anish</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Play Music App</div>
+        <div class="contain">
+            <div class="first" id="first">
+                <div class="song-name"></div>
+                <div class="image">
+                </div>
+            </div>
+            <div class="first" id="second">
+                <div class="timer">
+    
+                    <div class="audio">
+                        <audio type="audio/mpeg" controls>
+                            Your browser does not support the audio element.
+                            </audio>
+                    </div>
+                </div>
+                <div class="button">
+                    
+                    <button class="btn" id="first-btn" onclick="Previous()"><i class="fa-solid fa-backward " style="font-size: 1.5rem"></i></button>
+                    <button class="btn" id="second-btn" onclick="play()"><i class="fa-solid fa-play" style="font-size: 1.5rem"></i></button>
+                    <button class="btn" id="third-btn" onclick="Next()"><i class="fa-solid fa-forward " style="font-size: 1.5rem"></i></button>
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
