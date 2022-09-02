@@ -16,7 +16,7 @@ const array = [
   { id: 5, song: "/music/small.mp3", img: "./img/nepal.png", name: 'SMALL', time:84 },
 ];
 
-let counter = 1
+let counter = 2
 
 image.innerHTML = ` <img src="${array.find((x) => x.id===counter).img}" alt="loading">`;
 music.setAttribute("src", `${array.find((x) => x.id===counter).song}`);
